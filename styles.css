@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    background-color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+}
+section{
+    display:flex;
+    justify-content: center;
+}
+/*version pequeña*/
+.img-btn{
+    max-width: 5%;
+    height: auto;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    background-color: #33B9D3;
+    height: 400px;
+    width: 400px;
+    border: solid black 1px;
+    box-shadow: 2px 2px 10px lightblue;
+}
+.background-img{
+    background-color: #33B9D3;
+    height: 250px;
+}
+.text{
+    background-color: #33B9D3;
+    height: 112px;
+}
+.deploy-btn{
+    background-color: #E6C61D;
+    height: 38px;
+    display: flex;
+}
+.div-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* % por que necesito que lo herede*/
+}
+
+
+
+/*Expanded card*/
+
+
+
+.card-xl{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    background-color: #33B9D3;
+    height: 550px;
+    width: 400px;
+    border: solid black 1px;
+    box-shadow: 1px 1px 5px #33B9D3;
+}
+.background-img-xl{
+    background-color: #33B9D3;
+    height: 280px;
+}
+.text-xl{
+    background-color: #33B9D3;
+    height: 232px;
+}
+
+.deploy-btn-xl{
+    background-color: #E6C61D;
+    height: 38px;
+    display: flex;
+}
+.div-img-xl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* % por que necesito que lo herede*/
+    transform: rotate(180deg);
+
+}
